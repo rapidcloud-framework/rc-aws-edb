@@ -1,0 +1,132 @@
+{
+  "edb": {
+    "tpaexec_configure": {
+      "cloud": "aws",
+      "enabled": true,
+      "help": "",
+      "template_section": "EDB",
+      "template_enabled": true,
+      "metadata_table": "metadata",
+      "id": "name",
+      "args": {
+        "name": {
+          "name": "Name",
+          "prompt": "Cluster Name (no spaces)",
+          "required": true,
+          "default": ""
+        },
+        "architecture": {
+          "name": "architecture",
+          "prompt": "Architecture (M1, BDR-Always-ON, PGD-Always-ON)",
+          "required": true,
+          "default": "M1"
+        },
+        "platform": {
+          "name": "platform",
+          "prompt": "Platform",
+          "required": true,
+          "default": "aws"
+        }
+      }
+    },
+    "tpaexec_provision": {
+      "cloud": "aws",
+      "enabled": true,
+      "help": "",
+      "template_section": "EDB",
+      "template_enabled": true,
+      "id": "name",
+      "args": {
+        "token": {
+          "name": "name",
+          "prompt": "Cluster Name",
+          "required": true,
+          "default": ""
+        }
+      },
+      "timestamp": "2023-03-17 16:13:17.385338",
+      "cmd_id": "20230317161306616201"
+    },
+    "tpaexec_deploy": {
+      "cloud": "aws",
+      "enabled": true,
+      "help": "",
+      "template_section": "EDB",
+      "template_enabled": true,
+      "timestamp": "2023-03-17 16:13:43.186956",
+      "cmd_id": "20230317161335164186"
+    },
+    "tpaexec_test": {
+      "cloud": "aws",
+      "enabled": true,
+      "help": "",
+      "template_section": "EDB",
+      "template_enabled": true,
+      "timestamp": "2023-03-17 16:14:02.758969",
+      "cmd_id": "20230317161357063567"
+    },
+    "tpaexec_setup": {
+      "cloud": "aws",
+      "enabled": true,
+      "help": "",
+      "template_section": "EDB",
+      "template_enabled": true,
+      "id": "name",
+      "args": {
+        "token": {
+          "name": "token",
+          "prompt": "TPA Token",
+          "required": true,
+          "default": ""
+        }
+      },
+      "timestamp": "2023-03-17 16:51:10.312348",
+      "cmd_id": "20230317165056340058"
+    },
+    "tpaexec_update_postgres": {
+      "cloud": "aws",
+      "enabled": true,
+      "help": "",
+      "template_section": "EDB",
+      "template_enabled": true,
+      "timestamp": "2023-03-17 16:51:39.494695",
+      "cmd_id": "20230317165139270235"
+    },
+    "tpaexec_switchover": {
+      "cloud": "aws",
+      "enabled": true,
+      "help": "",
+      "template_section": "EDB",
+      "template_enabled": true,
+      "timestamp": "2023-03-17 16:51:57.111217",
+      "cmd_id": "20230317165156890296"
+    },
+    "tpaexec_pool_disable_server": {
+      "cloud": "aws",
+      "enabled": true,
+      "help": "",
+      "template_section": "EDB",
+      "template_enabled": true,
+      "timestamp": "2023-03-17 16:52:15.285371",
+      "cmd_id": "20230317165214995773"
+    },
+    "tpaexec_pool_enable_server": {
+      "cloud": "aws",
+      "enabled": true,
+      "help": "",
+      "template_section": "EDB",
+      "template_enabled": true,
+      "timestamp": "2023-03-17 16:52:26.560667",
+      "cmd_id": "20230317165226339642"
+    },
+    "tpaexec_rehydrate": {
+      "cloud": "aws",
+      "enabled": true,
+      "help": "",
+      "template_section": "EDB",
+      "template_enabled": true,
+      "timestamp": "2023-03-17 16:52:37.927126",
+      "cmd_id": "20230317165237623457"
+    }
+  }
+}
